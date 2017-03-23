@@ -1,5 +1,6 @@
 import java.io.*;
 public class TodoBajoControl{
+
 public static InputStreamReader isr = new InputStreamReader(System.in);
 public static BufferedReader bf = new BufferedReader(isr);
 public static PrintStream fsalida = System.out;
@@ -31,7 +32,7 @@ public static void datosPersonales(){
 		fsalida.println("\tBienvido a la APP TodoBajoControl 'TBC' \n");
 		
 			fsalida.println("Que opcion desea elegir\n");
-		fsalida.println("1.-Ingresar Datos\n.-2Revisar Datos\n3.-Como me protejo\n4.-Salir");
+		fsalida.println("1.-Ingresar Datos\n2.-Revisar Datos\n3.-Como me protejo\n4.-Salir");
 		
 		try{	
 			dato = bf.readLine();
