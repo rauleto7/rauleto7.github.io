@@ -30,8 +30,8 @@ public static void datosPersonales(){
 		do{
 		fsalida.println("\tBienvido a la APP TodoBajoControl 'TBC' \n");
 		
-			fsalida.println("¿Qué opcion desea elegir\n");
-		fsalida.println("1.-Ingresar Datos\n.-2Revisar Datos\n3.-¿Como me protejo?\n4.-Salir");
+			fsalida.println("Que opcion desea elegir\n");
+		fsalida.println("1.-Ingresar Datos\n.-2Revisar Datos\n3.-Como me protejo\n4.-Salir");
 		
 		try{	
 			dato = bf.readLine();
